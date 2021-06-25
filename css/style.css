@@ -32,7 +32,7 @@ header {
 
   transition: 0.6s;
   padding: 66px;
-  background-color:#2372D9;
+  background-color:#007fff;
 }
 .sticky {
   z-index: 222;
@@ -42,20 +42,20 @@ header {
   right:0;
   padding: 40px;
 
-  background-color: #EDEEF0;
+  background-color:#F2F2F2;
 }
 .sticky ul li,
 .sticky ul h1{
   z-index: 222;
-  color:black;
+  color:#2540D9;
 }
 
 header ul li:hover{
-  color:black;
+  color:#2540D9;
   z-index: 222;
   padding:10px 0;
 
-  border-bottom:2px solid black;
+  border-bottom:2px solid #2540D9;
 
 }
 .sticky ul li:hover{
@@ -73,8 +73,32 @@ main .hero-img{
   margin:auto;
   width:100%;
 z-index: 10;
-  background-color: #2372D9;
+
+
   border-radius: 20px;
+    background:#007FFF;
+}
+/* overlay */
+.overlayblack{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color: #F2F2F2;
+  opacity:0;
+
+}
+.overlay{
+    opacity:0.87;
+      z-index: 5555;
+      background-color: #F2F2F2;
+}
+.fas{
+  color:#2540D9;
+}
+.fas:hover{
+  color:red;
 }
 /* fine header ------------------------------------------------------------------ */
 /*inizio search  input ------------------------------------------------------------------ */
@@ -93,7 +117,7 @@ z-index: 10;
   background-color: #fff;
   border-radius: 60px;
   transition: 0.5s;
-  box-shadow: 0 0 0 5px #2372D9;
+  box-shadow: 0 0 0 2px #2372D9;
   overflow: hidden;
 }
 .active{
@@ -147,7 +171,7 @@ z-index: 10;
   top:50%;
   left:95%;
   transform: translate(-50% ,-50%);
-  color:black;
+  color:#2540D9;
 
 }
 .custom-select{
@@ -180,7 +204,7 @@ z-index: 10;
 }
 /* books */
 .re{
-  background-color: #EDEEF0;
+  background-color:#F2F2F2;
   height:300vh;
   width:100%;
     z-index: 10;
@@ -204,7 +228,7 @@ header ,main{
 }
 
 .body1 {
-	background: #ecf0f1;
+	background: #F2F2F2;
 	color: #34495e;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
@@ -675,4 +699,9 @@ background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
 box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
  -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
    background: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+}
+#ddlProducts  option
+{
+background-color: #007fff;
+height:40px;
 }
