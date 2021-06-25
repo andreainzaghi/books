@@ -1,6 +1,7 @@
 /* inizio header ------------------------------------------------------------------*/
 
 *{
+  font-family: 'Poppins', sans-serif;
   margin:0;
   padding:0;
   box-sizing: border-box;
@@ -168,7 +169,8 @@ z-index: 10;
 /* books */
 .re{
   background-color: #EDEEF0;
-  height:200vh;
+  height:300vh;
+  width:100%;
     z-index: 10;
 }
 header ,main{
@@ -198,7 +200,7 @@ header ,main{
   display: flex;
   justify-content: space-between;
   margin:auto;
-  width:100%;
+  width:90%;
   flex-wrap: wrap;
 }
 
@@ -644,6 +646,15 @@ figcaption p {
 	}
 }
 .hardcover_front li:first-child{
- background-image: url('img/OIP.jpg');
+ /* background-image: url('../img/OIP.jpg'); */
  background-size: cover;
+}
+.page li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button button{
+  width:115px;
+  height:35px;
 }
