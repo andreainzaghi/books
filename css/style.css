@@ -39,7 +39,7 @@ header {
   right:0;
 
   transition: 0.6s;
-  padding: 66px;
+  padding: 70px;
   background-color:#007fff;
 }
 .sticky {
@@ -48,7 +48,7 @@ header {
   top:0;
   left:0;
   right:0;
-  padding: 40px;
+  padding: 37px;
  border-bottom:1px solid #007FFF;
   background-color:#F2F2F2;
 }
@@ -761,7 +761,7 @@ height:40px;
 }
 /* scrollbar */
 
-/* width */
+
 ::-webkit-scrollbar {
   width: 0px;
 
@@ -773,7 +773,7 @@ height:40px;
   width:7px;
   z-index: 10000;
   height:100%;
-  background: rgba(255,255,255,0.05);
+  background: rgba(255,255,255,0.01);
 }
 #progressbar{
     z-index: 10000;
@@ -782,7 +782,7 @@ height:40px;
   right:0;
   width:7px;
   height:100%;
-  background: linear-gradient(to top, #008aff,#00ffe7);
+  background:#007FFF;
   animation:animate 5s linear infinite;
 }
 #progressHeight{
@@ -792,18 +792,18 @@ height:40px;
   height:24px;
   width:25px;
   z-index: 10000;
-  border-left:1px solid black;
-  border-bottom:1px solid black;
+  border-left:1px solid lightgrey;
+  border-bottom:1px solid lightgrey;
   padding: 0;
 }
-@keyframes animate{
+/* @keyframes animate{
   0%,100%{
     filter:hue-rotate(0deg);
   }
   50%{
     filter:hue-rotate(360deg);
   }
-}
+} */
 #progressbar:befour{
 content:'';
 position:absolute;
@@ -812,6 +812,6 @@ position:absolute;
   left:0;
   width:100%;
   height:100%;
-  background: linear-gradient(to top, #008aff,#00ffe7);
+  background: #007FFF;
 filter:blur(30px);
 }

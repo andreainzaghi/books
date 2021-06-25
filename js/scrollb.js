@@ -5,8 +5,10 @@ window.onscroll = function(){
 
   progress.style.height = progressHeight + "%";
   console.log(progressHeight);
+if (progressHeight<101) {
+    document.getElementById('progressHeight').innerHTML = progressHeight.toFixed();
+}
 
-  document.getElementById('progressHeight').innerHTML = progressHeight.toFixed();
-  
+
 
 }
