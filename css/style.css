@@ -41,7 +41,7 @@ header {
   left:0;
   right:0;
   padding: 40px;
-
+ border-bottom:1px solid blue;
   background-color:#F2F2F2;
 }
 .sticky ul li,
@@ -84,6 +84,7 @@ z-index: 10;
   top:0;
   left:0;
   right:0;
+    transition: 0.8s;
   bottom:0;
   background-color: #F2F2F2;
   opacity:0;
