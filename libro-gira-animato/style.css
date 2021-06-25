@@ -1,0 +1,199 @@
+/* body {
+
+  align-items: center;
+  background: #fff;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 200px;
+  height: 100vh;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.element {
+  align-items: center;
+  background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+   -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  width: 200px;
+}
+
+.element-1 {
+  background: #afd275;
+}
+
+.element-2 {
+  background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+}
+
+.element-3 {
+  background: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+}
+
+@media (min-width: 700px) {
+  body {
+    grid-template-columns: repeat(3, 200px);
+  }
+}
+.neon {
+    font-family: 'Montserrat', sans-serif;
+  color: #FB4264;
+  font-size: 6vw;
+
+  text-shadow: 0 0 3vw #F40A35;
+}
+
+.neon {
+  animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+}
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
+
+
+.flux {
+  font-family: 'Montserrat', sans-serif;
+  color: #426DFB;
+  font-size: 10px;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #2356FF;
+}
+
+
+.flux {
+  animation: flux 2s linear infinite;
+  -moz-animation: flux 2s linear infinite;
+  -webkit-animation: flux 2s linear infinite;
+  -o-animation: flux 2s linear infinite;
+}
+
+@keyframes flux {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+    color: #28D7FE;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+    color: #146C80;
+  }
+} */
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.container-book{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: radial-gradient(#007FFF,#007FFF);
+}
+.infinite{
+  position:relative;
+  width:300px;
+  height:80px;
+  background:grey;
+  transform-origin:bottom;
+  transform-style:preserve-3d;
+  transform:perspective(400px)rotateX(45deg);
+}
+.infinite::before{
+  content:'';
+  position:absolute;
+  top:50%;
+  z-index: 3;
+  left:0;
+  transform:translateY(-50%);
+  width:100%;
+  height:8px;
+animation:animateRoad 10s linear infinite;
+   background: linear-gradient(90deg,#fff 0%,#fff 70%,grey 70%,grey 100%);
+  background-size:120px;
+}
+.infinite::after{
+  content:'';
+  position:absolute;
+bottom:-20px;
+
+  width:100%;
+  height:20px;
+  background:#2e2e2e;
+
+  transform-origin: top;
+    transform:perspective(500px)rotateX(-25deg);
+}
+@keyframes animateRoad {
+  0%{
+    background-position: 0;
+  }
+  100%{
+      background-position: -1200px;
+  }
+}
+/* .shadow{
+  position:absolute;
+  left:30%;
+  width:95%;
+  bottom:-93px;
+    transform:translateY(-50%);
+      height:60px;
+         background: linear-gradient(rgba(0,0,0,0.25),transparent);
+} */
+.box{
+  position:absolute;
+  width:100%;
+  /* height:180px; */
+  margin-bottom:70px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-reflect:below 2px linear-gradient(transparent,transparent,transparent,#0004);
+  animation:animateBox 10s linear infinite;
+}
+@keyframes animateBox{
+  0%{
+    transform:translateX(0);
+  }
+  100%{
+      transform:translateX(-1px);
+  }
+}
+.square{
+  width:85px;
+  height:119px;
+  border-radius: 5px;
+  background-image: url('img/h.webp');
+  background-size: cover;
+  position:relative;
+  /* background-color: #fff; */
+
+  animation :animate 5s linear infinite;
+}
+
+@keyframes animate{
+  0%{
+    transform:rotate(0deg);
+  }
+  100%{
+      transform:rotate(360deg);
+  }
+}
