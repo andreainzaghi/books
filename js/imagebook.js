@@ -98,8 +98,10 @@ new Vue({
      image: { backgroundImage: "url(https://vuejs.org/images/logo.png)" },
         title:'Le cronache di Narnia'
     }]
+  
 
   },
+
   computed: {
 
   },

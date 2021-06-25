@@ -62,7 +62,7 @@ header {
 header ul li:hover{
   color:#2540D9;
   z-index: 222;
-  padding:10px 0;
+
     cursor: pointer;
   border-bottom:2px solid #2540D9;
 
@@ -105,11 +105,18 @@ z-index: 10;
       background-color: #F2F2F2;
 }
 .fas{
-  color:#2540D9;
+  color:#007FFF;
 }
 .fas:hover{
   color:#fe5a1d;
 }
+
+/* .bchartb {
+  color:blue;
+}
+.chart {
+  color:#fff;
+} */
 /* fine header ------------------------------------------------------------------ */
 /*inizio search  input ------------------------------------------------------------------ */
 
@@ -758,23 +765,56 @@ height:40px;
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 0px;
 
 }
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px #fff;
-  border-radius: 0px;
+#scrollPath{
+  position: fixed;
+  top:0;
+  right:0;
+  width:7px;
+  z-index: 10000;
+  height:100%;
+  background: rgba(255,255,255,0.05);
 }
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background:#007FFF;
-  border-radius: 0px;
+#progressbar{
+    z-index: 10000;
+  position: fixed;
+  top:0;
+  right:0;
+  width:7px;
+  height:100%;
+  background: linear-gradient(to top, #008aff,#00ffe7);
+  animation:animate 5s linear infinite;
 }
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #007FFF;
+#progressHeight{
+  position: fixed;
+  top:0px;
+  right:9px;
+  height:24px;
+  width:25px;
+  z-index: 10000;
+  border-left:1px solid black;
+  border-bottom:1px solid black;
+  padding: 0;
 }
+@keyframes animate{
+  0%,100%{
+    filter:hue-rotate(0deg);
+  }
+  50%{
+    filter:hue-rotate(360deg);
+  }
+}
+#progressbar:befour{
+content:'';
+position:absolute;
+
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: linear-gradient(to top, #008aff,#00ffe7);
+filter:blur(30px);
+}
+/* rotate logo book */
