@@ -120,9 +120,7 @@ z-index: 10;
 /* fine header ------------------------------------------------------------------ */
 /*inizio search  input ------------------------------------------------------------------ */
 
-.z-sopra{
-    z-index: 1033;
-}
+
 .search{
 
   position: relative;
@@ -817,4 +815,3 @@ position:absolute;
   background: linear-gradient(to top, #008aff,#00ffe7);
 filter:blur(30px);
 }
-/* rotate logo book */
