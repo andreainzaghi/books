@@ -7,18 +7,18 @@ window.onscroll = function(){
 
   if (progressHeight>=0 & progressHeight<12) {
       document.getElementById('genereb').innerHTML = 'AVVENTURA';
-  }else if(progressHeight>13 & progressHeight<22) {
+  }else if(progressHeight>12 & progressHeight<22) {
       document.getElementById('genereb').innerHTML = 'LETTERATURA';
-  }else if(progressHeight>23 & progressHeight<40) {
+  }else if(progressHeight>22 & progressHeight<40) {
       document.getElementById('genereb').innerHTML = 'ARTE';
-  }else if(progressHeight>41 & progressHeight<55) {
+  }else if(progressHeight>40 & progressHeight<55) {
       document.getElementById('genereb').innerHTML = 'PSICOLOGIA';
-  }else if(progressHeight>56 & progressHeight<67) {
+  }else if(progressHeight>55 & progressHeight<67) {
       document.getElementById('genereb').innerHTML = 'INFORMATICA';
-  }else if(progressHeight>68 & progressHeight<76) {
+  }else if(progressHeight>67 & progressHeight<76) {
       document.getElementById('genereb').innerHTML = 'UNIVERSITA';
   }else {
-      document.getElementById('genereb').innerHTML = 'Contattaci';
+      document.getElementById('genereb').innerHTML = 'BESTSELLER';
   }
 
 if (progressHeight<=100) {
