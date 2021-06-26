@@ -72,16 +72,16 @@ header {
 header ul h1{
   font-size: 35px;
   color:#fff;
-text-shadow: 2px 2px 2px black;
+  text-shadow: 2px 2px 2px black;
   z-index: 224;
-font-weight: bold;
+  font-weight: bold;
 
 }
 
 header ul li:hover{
-font-weight: bold;
+  font-weight: bold;
   z-index: 224;
- transform: scale(1.2);
+  transform: scale(1.2);
   cursor: pointer;
   border-bottom:2px solid #fff;
 
@@ -148,7 +148,7 @@ color:#fff;
 /*inizio search  input ------------------------------------------------------------------ */
 
 .search:hover{
-box-shadow: 1px 1px 20px #fff;
+  box-shadow: 1px 1px 20px #fff;
 }
 .search{
 
@@ -455,7 +455,7 @@ a {
 
 .hardcover_front {
   transition: all 0.8s ease;
-   z-index 0.6s;
+  z-index 0.6s;
 }
 
 /* HARDCOVER front */
@@ -756,7 +756,7 @@ figcaption p {
 .button button:first-child{
   width:130px;
   height:40px;
- padding:5px;
+  padding:5px;
   margin:10px 0;
   font-size: 18px;
   border-radius: 20px;
@@ -768,7 +768,7 @@ figcaption p {
 }
 .button button:last-child{
   width:105px;
-   padding:5px;
+  padding:5px;
   font-size: 12px;
   height:30px;
   color:grey;
@@ -894,13 +894,13 @@ footer{
   padding: 0 5px;
 }
 .f3 div i:hover{
-color:#fff;
-transform: scale(1.5);
+  color:#fff;
+  transform: scale(1.5);
 }
 .f2 h2
 {
   font-size: 19px;
 }
 .f2 h3{
-    font-size: 15px;
+  font-size: 15px;
 }
