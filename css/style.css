@@ -789,6 +789,8 @@ height:40px;
   top:0;
   right:0;
   width:7px;
+
+  border:1px solid #fff;
   height:100%;
   background:#007FFF;
 
@@ -832,13 +834,14 @@ footer{
   width:90%;
   margin: auto;
 justify-content: space-between;
- padding:18px;
+ padding:12px;
 
 }
 .f1{
-  width:30%;
+  width:33%;
   padding:15px;
- text-align: center;
+ text-align: left;
+ color:lightgrey;
 }
 .f1:hover{
 border:1px solid #fff;
