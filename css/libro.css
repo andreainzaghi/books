@@ -193,7 +193,7 @@ transform: scale(1.05);
 }
 .meteo1{
   position:fixed;
-  z-index: 1111;
+  z-index: 1113;
   bottom:50px;
   right:100px;
   width:100px;
@@ -204,7 +204,7 @@ transform: scale(1.05);
   position:fixed;
   z-index: 1111;
   bottom:50px;
-  right:215px;
+  right:172px;
   width:370px;
   height:100px;
 display: flex;
@@ -214,7 +214,7 @@ align-items: center;
 }
 .meteo2 p{
 
-
+animation:espressioni1 2s linear infinite;
 font-size: 20px;
 font-weight: bold;
 color:#007FFF;
@@ -239,6 +239,23 @@ animation:espressioni 2s linear infinite;
   }
   100%{
       transform:scale(1.0);
+  }
+}
+@keyframes espressioni1{
+  0%{
+    transform:rotate(0deg);
+  }
+  25%{
+      transform:rotate(7deg);
+  }
+  50%{
+      transform:rotate(0deg);
+  }
+  75%{
+      transform:rotate(-7deg);
+  }
+  100%{
+      transform:rotate(0deg);
   }
 }
 .deletee{
