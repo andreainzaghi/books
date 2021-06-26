@@ -24,14 +24,24 @@ window.onscroll = function(){
 
 if (progressHeight>15 & progressHeight<35) {
     document.getElementById('emoticonesp').innerHTML = '<img src=\'img/Background (42).png\'  height="100px">';
+    document.getElementById('emoticonetxt').innerHTML = 'Ei Simone!Aspetta un secondo!';
+      document.getElementById('emoticonedel').innerHTML = 'X';
 }else if(progressHeight>35 & progressHeight<50) {
     document.getElementById('emoticonesp').innerHTML = '<img src=\'img/Background (43).png\'  height="100px">';
+    document.getElementById('emoticonetxt').innerHTML = 'Volevo dirti una cosa velocissima ';
+      document.getElementById('emoticonedel').innerHTML = 'X';
 }else if(progressHeight>50 & progressHeight<70) {
     document.getElementById('emoticonesp').innerHTML = '<img src=\'img/Background (44).png\'  height="100px">';
+    document.getElementById('emoticonetxt').innerHTML = 'Voglio essere sicuro che dai un occhiata hai nostri Bestsellers';
+      document.getElementById('emoticonedel').innerHTML = 'X';
 }else if(progressHeight>70& progressHeight<90) {
     document.getElementById('emoticonesp').innerHTML ='<img src=\'img/Background (45).png\'  height="100px">';
+    document.getElementById('emoticonetxt').innerHTML = 'Buona continuazione!' + '<br>' + 'Piccola info,oggi il meteo é soleggiato con 26°C' ;
+      document.getElementById('emoticonedel').innerHTML = 'X';
 }else {
     document.getElementById('emoticonesp').innerHTML = '';
+        document.getElementById('emoticonetxt').innerHTML = '';
+          document.getElementById('emoticonedel').innerHTML = '';
 }
 
 // scroll

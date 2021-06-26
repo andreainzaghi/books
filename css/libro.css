@@ -183,13 +183,80 @@ transform: scale(1.05);
 }
 /* meteo */
 
-
 .meteo{
+  position:fixed;
+  z-index: 1111;
+  bottom:50px;
+  right:100px;
+
+
+}
+.meteo1{
   position:fixed;
   z-index: 1111;
   bottom:50px;
   right:100px;
   width:100px;
   height:100px;
-  
+
+}
+.meteo2 {
+  position:fixed;
+  z-index: 1111;
+  bottom:50px;
+  right:215px;
+  width:370px;
+  height:100px;
+display: flex;
+
+justify-content: center;
+align-items: center;
+}
+.meteo2 p{
+
+
+font-size: 20px;
+font-weight: bold;
+color:#007FFF;
+padding:0px 3px;
+background-color: rgb(242, 242, 242);
+border-radius: 20px;
+border: 1px solid #007FFF;
+}
+.meteo1 img{
+
+animation:espressioni 2s linear infinite;
+}
+@keyframes espressioni{
+  0%{
+    transform:scale(1.0);
+  }
+  25%{
+      transform:scale(1.05);
+  }
+  50%{
+      transform:scale(1.1);
+  }
+  100%{
+      transform:scale(1.0);
+  }
+}
+.deletee{
+  transition: 0.6s;
+  display:none;
+}
+.meteo4 p{
+  position:fixed;
+  z-index: 1113;
+  bottom:150px;
+  font-weight: bold;
+  font-size: 20PX;
+  right:50px;
+  width:20px;
+  height:20px;
+  color:#007FFF;
+  border:none;
+background-color: transparent;
+  border-radius: 20px;
+
 }
