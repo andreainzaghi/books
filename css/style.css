@@ -27,11 +27,12 @@ header ul{
 }
 .align li p{
   margin:30px 0;
-  text-align: center;
+  width:260px;
+  text-align: left;
   font-size: 17px;
   font-weight: bold;
   position:relative;
-  left:-14px;
+  left:-0px;
 
 }
 .align li h4{

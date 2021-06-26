@@ -68,9 +68,9 @@ new Vue({
         title:'Contare i secondi',
         like:'983',
         stock:'stock : +1000',
-        pagine:'300 pagine',
+        pagine:'256 pagine',
         editore:'Feltrinelli',
-        Genere:'Avventura'
+        Genere:'Letteratura'
 
 
     },
@@ -79,9 +79,9 @@ new Vue({
         title:'Medical disorder',
         like:'134',
         stock:'stock : +1000',
-        pagine:'300 pagine',
+        pagine:'256 pagine',
         editore:'Feltrinelli',
-        Genere:'Avventura'
+        Genere:'Letteratura'
 
 
       },
@@ -90,9 +90,9 @@ new Vue({
         title:'Inglese per Pricipianti',
         like:'565',
         stock:'stock : +1000',
-        pagine:'300 pagine',
+        pagine:'256 pagine',
         editore:'Feltrinelli',
-        Genere:'Avventura'
+        Genere:'Letteratura'
 
 
       },
@@ -102,9 +102,9 @@ new Vue({
 
           like:'899',
           stock:'stock : +1000',
-          pagine:'300 pagine',
+          pagine:'256 pagine',
           editore:'Feltrinelli',
-          Genere:'Avventura'
+          Genere:'Letteratura'
 
 
         },
@@ -114,9 +114,9 @@ new Vue({
 
             like:'344',
             stock:'stock : +1000',
-            pagine:'300 pagine',
+            pagine:'256 pagine',
             editore:'Feltrinelli',
-            Genere:'Avventura'
+            Genere:'Arte'
 
 
     },
@@ -126,9 +126,9 @@ new Vue({
 
         like:'894',
         stock:'stock : +1000',
-        pagine:'300 pagine',
+        pagine:'256 pagine',
         editore:'Feltrinelli',
-        Genere:'Avventura'
+        Genere:'Arte'
 
 
       },
@@ -138,9 +138,9 @@ new Vue({
 
           like:'112',
           stock:'stock : +1000',
-          pagine:'300 pagine',
+          pagine:'256 pagine',
           editore:'Feltrinelli',
-          Genere:'Avventura'
+          Genere:'Arte'
 
 
     },
@@ -150,9 +150,9 @@ new Vue({
 
         like:'997',
         stock:'stock : +1000',
-        pagine:'300 pagine',
+        pagine:'256 pagine',
         editore:'Feltrinelli',
-        Genere:'Avventura'
+        Genere:'Arte'
 
 
       },
@@ -162,9 +162,9 @@ new Vue({
 
           like:'484',
           stock:'stock : +1000',
-          pagine:'300 pagine',
+          pagine:'453 pagine',
           editore:'Feltrinelli',
-          Genere:'Avventura'
+          Genere:'Psicologia'
 
 
     },
@@ -174,9 +174,9 @@ new Vue({
 
         like:'857',
         stock:'stock : +1000',
-        pagine:'300 pagine',
+        pagine:'453 pagine',
         editore:'Feltrinelli',
-        Genere:'Avventura'
+        Genere:'Psicologia'
 
 
       },
@@ -186,9 +186,9 @@ new Vue({
 
           like:'393',
           stock:'stock : +1000',
-          pagine:'300 pagine',
+          pagine:'453 pagine',
           editore:'Feltrinelli',
-          Genere:'Avventura'
+          Genere:'Psicologia'
 
 
     },
@@ -198,9 +198,9 @@ new Vue({
 
         like:'231',
         stock:'stock : +1000',
-        pagine:'300 pagine',
+        pagine:'453 pagine',
         editore:'Feltrinelli',
-        Genere:'Avventura'
+        Genere:'Psicologia'
 
 
       },
@@ -210,9 +210,9 @@ new Vue({
 
           like:'453',
           stock:'stock : +1000',
-          pagine:'300 pagine',
+          pagine:'234 pagine',
           editore:'Feltrinelli',
-          Genere:'Avventura'
+          Genere:'Informatica'
 
 
         },
@@ -222,9 +222,9 @@ new Vue({
 
         like:'576',
         stock:'stock : +1000',
-        pagine:'300 pagine',
+        pagine:'234 pagine',
         editore:'Feltrinelli',
-        Genere:'Avventura'
+        Genere:'Informatica'
 
 
       },
@@ -235,9 +235,9 @@ new Vue({
 
           like:'853',
           stock:'stock : +1000',
-          pagine:'300 pagine',
+          pagine:'234 pagine',
           editore:'Feltrinelli',
-          Genere:'Avventura'
+          Genere:'Informatica'
 
 
     },
@@ -247,9 +247,9 @@ new Vue({
 
         like:'653',
         stock:'stock : +1000',
-        pagine:'300 pagine',
+        pagine:'234 pagine',
         editore:'Feltrinelli',
-        Genere:'Avventura'
+        Genere:'Informatica'
 
 
       },
@@ -259,9 +259,9 @@ new Vue({
 
           like:'893',
           stock:'stock : +1000',
-          pagine:'300 pagine',
+          pagine:'234 pagine',
           editore:'Feltrinelli',
-          Genere:'Avventura'
+          Genere:'Universita'
 
 
     },
@@ -271,9 +271,9 @@ new Vue({
 
         like:'753',
         stock:'stock : +1000',
-        pagine:'300 pagine',
+        pagine:'145 pagine',
         editore:'Feltrinelli',
-        Genere:'Avventura'
+        Genere:'Universita'
 
 
       },
@@ -283,9 +283,9 @@ new Vue({
 
           like:'233',
           stock:'stock : +1000',
-          pagine:'300 pagine',
+          pagine:'145 pagine',
           editore:'Feltrinelli',
-          Genere:'Avventura'
+          Genere:'Universita'
 
 
     },
@@ -295,9 +295,9 @@ new Vue({
 
        like:'129',
        stock:'stock : +1000',
-       pagine:'300 pagine',
+       pagine:'145 pagine',
        editore:'Feltrinelli',
-       Genere:'Avventura'
+       Genere:'Universita'
 
 
      }]
