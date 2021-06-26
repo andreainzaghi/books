@@ -15,7 +15,7 @@ window.onscroll = function(){
       document.getElementById('genereb').innerHTML = 'PSICOLOGIA';
   }else if(progressHeight>55 & progressHeight<67) {
       document.getElementById('genereb').innerHTML = 'INFORMATICA';
-  }else if(progressHeight>67 & progressHeight<76) {
+  }else if(progressHeight>67 & progressHeight<84) {
       document.getElementById('genereb').innerHTML = 'UNIVERSITA';
   }else {
       document.getElementById('genereb').innerHTML = 'BESTSELLER';

@@ -32,6 +32,7 @@ header ul{
   font-weight: bold;
   position:relative;
   left:-14px;
+
 }
 .align li h4{
   margin-top:7px;
@@ -51,7 +52,7 @@ header {
   background-color:#007fff;
 }
 .sticky {
-  z-index: 222;
+  z-index: 224;
   position: fixed;
   top:0;
   left:0;
@@ -62,33 +63,34 @@ header {
 }
 .sticky ul li,
 .sticky ul h1{
-  z-index: 222;
+  z-index: 224;
   color:#007FFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #fff;
   cursor: pointer;
 }
 header ul h1{
-  font-size: 40px;
-  color:#007FFF;
+  font-size: 35px;
+  color:#fff;
+text-shadow: 2px 2px 2px black;
+  z-index: 224;
+font-weight: bold;
 
-      background-clip: border-box;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  text-shadow: #F2F2F2 1px 2px 1px;
 }
 
 header ul li:hover{
-  color:#2540D9;
-  z-index: 222;
-
+font-weight: bold;
+  z-index: 224;
+ transform: scale(1.2);
   cursor: pointer;
-  border-bottom:2px solid #2540D9;
+  border-bottom:2px solid #fff;
 
 }
 .sticky ul li:hover{
   border-bottom:2px solid #007FFF;
   color:#007FFF;
-  z-index: 222;
+  z-index: 224;
+  font-weight: bold;
 
 }
 main .hero-img{
@@ -145,7 +147,9 @@ color:#fff;
 /* fine header ------------------------------------------------------------------ */
 /*inizio search  input ------------------------------------------------------------------ */
 
-
+.search:hover{
+box-shadow: 1px 1px 20px #fff;
+}
 .search{
 
   position: relative;
@@ -162,7 +166,7 @@ color:#fff;
 }
 .active{
   position:relative;
-  width:48%;
+  width:45.8%;
   height:45px;
   background-color: #fff;
   border-radius: 60px;
@@ -232,7 +236,7 @@ color:#fff;
   height:45px;
   outline: none;
   color:#fff;
-  width:23%;
+  width:22%;
   border:none;
   border-radius: 60px;
   padding:10px 30px;
@@ -449,7 +453,8 @@ a {
 }
 
 .hardcover_front {
-  transition: all 0.8s ease, z-index 0.6s;
+  transition: all 0.8s ease;
+   z-index 0.6s;
 }
 
 /* HARDCOVER front */
@@ -750,7 +755,7 @@ figcaption p {
 .button button:first-child{
   width:130px;
   height:40px;
-
+ padding:5px;
   margin:10px 0;
   font-size: 18px;
   border-radius: 20px;
@@ -762,6 +767,7 @@ figcaption p {
 }
 .button button:last-child{
   width:105px;
+   padding:5px;
   font-size: 12px;
   height:30px;
   color:grey;
@@ -873,6 +879,10 @@ footer{
 }
 .f1 li{
   font-size: 13px;
+}
+.f1 ul li:hover{
+  transform: scale(1.05);
+  color:#fff;
 }
 .f3 {
   display: flex;
