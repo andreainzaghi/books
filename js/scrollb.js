@@ -36,7 +36,7 @@ if (progressHeight>15 & progressHeight<35) {
       document.getElementById('emoticonedel').innerHTML = 'X';
 }else if(progressHeight>70& progressHeight<90) {
     document.getElementById('emoticonesp').innerHTML ='<img src=\'img/Background (45).png\'  height="100px">';
-    document.getElementById('emoticonetxt').innerHTML = 'Buona continuazione!' + '<br>' + 'Piccola info,oggi il meteo é soleggiato con 26°C' ;
+    document.getElementById('emoticonetxt').innerHTML = 'OTTIMO!' + '<br>' + 'Piccola info,oggi il meteo é soleggiato con 26°C' ;
       document.getElementById('emoticonedel').innerHTML = 'X';
 }else {
     document.getElementById('emoticonesp').innerHTML = '';

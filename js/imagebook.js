@@ -3,12 +3,27 @@ new Vue({
   el: '#root',
   data: {
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     books:[ {
      image: { backgroundImage: "url(https://th.bing.com/th/id/OIP.mGtfLytIUT-A5jMpXVzQfgAAAA?pid=ImgDet&rs=1)" },
          title:'La Lettera',
      like:'451',
-     stock:'stock : 1000',
-     pagine:'300 pagine',
+     stock:'stock : +1000',
+     pagine:'400 pagine',
      editore:'Feltrinelli',
      Genere:'Avventura'
 
@@ -19,8 +34,8 @@ new Vue({
      image: { backgroundImage: "url(https://th.bing.com/th/id/OIP.8hpT1lvwh4W1YnKIyBAfOAAAAA?pid=ImgDet&w=450&h=636&rs=1)" },
       title:'Le cronache di Narnia',
       like:'342',
-      stock:'stock : 1000',
-      pagine:'300 pagine',
+      stock:'stock : +1000',
+      pagine:'400 pagine',
       editore:'Feltrinelli',
       Genere:'Avventura'
 
@@ -30,8 +45,8 @@ new Vue({
      image: { backgroundImage: "url(https://th.bing.com/th/id/Ra1d9a2076ec7989f0bb67665f4c31b82?rik=HYaWIfhd3cbiwA&pid=ImgRaw)" },
          title:'Il vecchio e il Mare',
            like:'145',
-           stock:'stock : 1000',
-           pagine:'300 pagine',
+           stock:'stock : +1000',
+           pagine:'400 pagine',
            editore:'Feltrinelli',
            Genere:'Avventura'
 
@@ -41,8 +56,8 @@ new Vue({
      image: { backgroundImage: "url(https://i.pinimg.com/originals/49/6e/be/496ebe206fa0105df7f56ba42f1bfb45.jpg)" },
         title:'Il blu dipinto di blu',
         like:'679',
-        stock:'stock : 1000',
-        pagine:'300 pagine',
+        stock:'stock : +1000',
+        pagine:'400 pagine',
         editore:'Feltrinelli',
         Genere:'Avventura'
 
@@ -52,7 +67,7 @@ new Vue({
      image: { backgroundImage: "url(https://th.bing.com/th/id/R78876e362c30a446983ff406ebf23b59?rik=9x5Q6bmJ2TUasQ&riu=http%3a%2f%2fprodimage.images-bn.com%2fpimages%2f9780470503607_p0_v1_s1200x630.jpg&ehk=VNHaFd6G3sCRLqEuqQKI8OeUhd02ehAU67Mkz1TTyVQ%3d&risl=&pid=ImgRaw)" },
         title:'Contare i secondi',
         like:'983',
-        stock:'stock : 1000',
+        stock:'stock : +1000',
         pagine:'300 pagine',
         editore:'Feltrinelli',
         Genere:'Avventura'
@@ -63,7 +78,7 @@ new Vue({
      image: { backgroundImage: "url(https://th.bing.com/th/id/OIP.ZKZufRL0AAlfdJ1ddiIgYgAAAA?pid=ImgDet&rs=1)" },
         title:'Medical disorder',
         like:'134',
-        stock:'stock : 1000',
+        stock:'stock : +1000',
         pagine:'300 pagine',
         editore:'Feltrinelli',
         Genere:'Avventura'
@@ -74,7 +89,7 @@ new Vue({
      image: { backgroundImage: "url(https://www.textbooknbeyond.com/images/Book_Supplemental_8/9780007800803.jpg)" },
         title:'Inglese per Pricipianti',
         like:'565',
-        stock:'stock : 1000',
+        stock:'stock : +1000',
         pagine:'300 pagine',
         editore:'Feltrinelli',
         Genere:'Avventura'
@@ -86,7 +101,7 @@ new Vue({
         title:'Freud',
 
       like:'899',
-      stock:'stock : 1000',
+      stock:'stock : +1000',
       pagine:'300 pagine',
       editore:'Feltrinelli',
       Genere:'Avventura'
@@ -98,7 +113,7 @@ new Vue({
         title:'La storia di quasi tutto',
 
       like:'344',
-      stock:'stock : 1000',
+      stock:'stock : +1000',
       pagine:'300 pagine',
       editore:'Feltrinelli',
       Genere:'Avventura'
@@ -110,7 +125,7 @@ new Vue({
         title:'Javascript',
 
       like:'894',
-      stock:'stock : 1000',
+      stock:'stock : +1000',
       pagine:'300 pagine',
       editore:'Feltrinelli',
       Genere:'Avventura'
@@ -122,7 +137,7 @@ new Vue({
         title:'HTML5&CSS3',
 
       like:'112',
-      stock:'stock : 1000',
+      stock:'stock : +1000',
       pagine:'300 pagine',
       editore:'Feltrinelli',
       Genere:'Avventura'
@@ -134,7 +149,7 @@ new Vue({
         title:'Come iniziare a viaggiare',
 
       like:'997',
-      stock:'stock : 1000',
+      stock:'stock : +1000',
       pagine:'300 pagine',
       editore:'Feltrinelli',
       Genere:'Avventura'
@@ -146,7 +161,7 @@ new Vue({
         title:'Trovare Lavoro ai Caraibi',
 
       like:'484',
-      stock:'stock : 1000',
+      stock:'stock : +1000',
       pagine:'300 pagine',
       editore:'Feltrinelli',
       Genere:'Avventura'
@@ -158,7 +173,7 @@ new Vue({
         title:'Se solo non fossi...',
 
       like:'857',
-      stock:'stock : 1000',
+      stock:'stock : +1000',
       pagine:'300 pagine',
       editore:'Feltrinelli',
       Genere:'Avventura'
@@ -170,7 +185,7 @@ new Vue({
         title:'Come cavalcare i cavalli',
 
       like:'393',
-      stock:'stock : 1000',
+      stock:'stock : +1000',
       pagine:'300 pagine',
       editore:'Feltrinelli',
       Genere:'Avventura'
@@ -182,7 +197,7 @@ new Vue({
         title:'12 racconti',
 
       like:'231',
-      stock:'stock : 1000',
+      stock:'stock : +1000',
       pagine:'300 pagine',
       editore:'Feltrinelli',
       Genere:'Avventura'
@@ -194,7 +209,7 @@ new Vue({
         title:'Peccato che non siamo assieme',
 
       like:'453',
-      stock:'stock : 1000',
+      stock:'stock : +1000',
       pagine:'300 pagine',
       editore:'Feltrinelli',
       Genere:'Avventura'
@@ -206,7 +221,7 @@ new Vue({
         title:'E ora?',
 
       like:'576',
-      stock:'stock : 1000',
+      stock:'stock : +1000',
       pagine:'300 pagine',
       editore:'Feltrinelli',
       Genere:'Avventura'
@@ -219,7 +234,7 @@ new Vue({
 
 
       like:'853',
-      stock:'stock : 1000',
+      stock:'stock : +1000',
       pagine:'300 pagine',
       editore:'Feltrinelli',
       Genere:'Avventura'
@@ -231,7 +246,7 @@ new Vue({
         title:'Neri una storia di sangue',
 
       like:'653',
-      stock:'stock : 1000',
+      stock:'stock : +1000',
       pagine:'300 pagine',
       editore:'Feltrinelli',
       Genere:'Avventura'
@@ -243,7 +258,7 @@ new Vue({
         title:'Programming',
 
       like:'893',
-      stock:'stock : 1000',
+      stock:'stock : +1000',
       pagine:'300 pagine',
       editore:'Feltrinelli',
       Genere:'Avventura'
@@ -255,7 +270,7 @@ new Vue({
         title:'PHP&SQL',
 
       like:'753',
-      stock:'stock : 1000',
+      stock:'stock : +1000',
       pagine:'300 pagine',
       editore:'Feltrinelli',
       Genere:'Avventura'
@@ -267,7 +282,7 @@ new Vue({
         title:'Come scrivere un libro',
 
       like:'233',
-      stock:'stock : 1000',
+      stock:'stock : +1000',
       pagine:'300 pagine',
       editore:'Feltrinelli',
       Genere:'Avventura'
@@ -279,24 +294,12 @@ new Vue({
         title:'Perche Dio esiste',
 
       like:'129',
-      stock:'stock : 1000',
+      stock:'stock : +1000',
       pagine:'300 pagine',
       editore:'Feltrinelli',
       Genere:'Avventura'
 
 
     }]
-
-
   },
-
-  computed: {
-
-  },
-  methods:{
-
-
-  }
-
-
 });
