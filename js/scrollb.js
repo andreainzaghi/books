@@ -4,7 +4,7 @@ window.onscroll = function(){
   var progressHeight = (window.pageYOffset/totalHeight)*100;
 
   progress.style.height = progressHeight + "%";
-
+// genere
   if (progressHeight>=0 & progressHeight<12) {
       document.getElementById('genereb').innerHTML = 'AVVENTURA';
   }else if(progressHeight>12 & progressHeight<22) {
@@ -20,7 +20,21 @@ window.onscroll = function(){
   }else {
       document.getElementById('genereb').innerHTML = 'BESTSELLER';
   }
+// smileemoticon
 
+if (progressHeight>15 & progressHeight<35) {
+    document.getElementById('emoticonesp').innerHTML = '<img src=\'img/Background (42).png\'  height="100px">';
+}else if(progressHeight>35 & progressHeight<50) {
+    document.getElementById('emoticonesp').innerHTML = '<img src=\'img/Background (43).png\'  height="100px">';
+}else if(progressHeight>50 & progressHeight<70) {
+    document.getElementById('emoticonesp').innerHTML = '<img src=\'img/Background (44).png\'  height="100px">';
+}else if(progressHeight>70& progressHeight<90) {
+    document.getElementById('emoticonesp').innerHTML ='<img src=\'img/Background (45).png\'  height="100px">';
+}else {
+    document.getElementById('emoticonesp').innerHTML = '';
+}
+
+// scroll
 if (progressHeight<=100) {
     document.getElementById('progressHeight').innerHTML = progressHeight.toFixed();
 }
