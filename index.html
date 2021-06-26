@@ -5,18 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/libro.css">
+  <link rel="stylesheet" href="css/libro.css">
   <title>Document</title>
 </head>
 <body>
   <div id="progressbar">  </div>
-    <div id="scrollPath">   </div>
+  <div id="scrollPath">   </div>
 
-      <div id="progressHeight"> </div>
+  <div id="progressHeight"> </div>
 
 
 
@@ -29,9 +29,9 @@
       <li>Libri e Shop</li>
       <li>Podcast</li>
       <li>eReader</li>
-     <h1>Blu4blu</h1>
+      <h1>Blu4Book</h1>
 
-        <li>eBook</li>
+      <li>eBook</li>
       <li>Chi Siamo</li>
       <li>Contatti</li>
 
@@ -44,183 +44,200 @@
 
       <div class="overlayblack">
         <!-- <div id="btn-overlay">
-          <div class="btn-f-o">
-            <button type="button" name="button">Torna alla Homepage</button>
-          </div>
-          <div class="btn-f-o">
-           <button type="button" name="button">Sfoglia altri libri</button>
-          </div>
-        </div> -->
-      </div>
-      <div class="search">
-        <div class="icon"> <i class="fas fa-search"></i> </div>
-        <div class="input"> <input type="text" name="" value="" placeholder="Search" id="mysearch"> </div>
-        <span class="delete" onclick="document.getElementById('mysearch').value = ''"><i class="fas fa-times"></i></span>
-      </div>
-
-      <div class="custom-select">
-        <select id="ddlProducts" name="cars" id="cars">
-          <option value="volvo">Genere</option>
-          <option value="saab">Avventura</option>
-          <option value="mercedes">Letteratura</option>
-          <option value="audi">Arte</option>
-          <option value="saab">Informatica</option>
-          <option value="mercedes">Lingue Straniere</option>
-          <option value="audi">Psicologia</option>
-        </select>
-        <select id="ddlProducts" name="cars" id="cars">
-          <option value="volvo">Data di Pubblicazione</option>
-          <option value="saab">Novita'</option>
-          <option value="mercedes">Top Uscite 2021</option>
-          <option value="audi">Top Uscite 2020</option>
-          <option value="mercedes">Top Uscite 2019</option>
-          <option value="audi">Top Uscite 2018</option>
-          <option value="mercedes">Top Uscite 2000</option>
-          <option value="audi">Grandi Classici 1900</option>
-          <option value="mercedes">Saggi storici 400 a.c - 1850 d.c</option>
-
-        </select>
-        <select id="ddlProducts" name="cars" id="cars">
-          <option value="volvo">Autore</option>
-          <option value="saab">Antonio Manzoni</option>
-          <option value="mercedes">Ernest Hemingway</option>
-          <option value="audi">Luigi Pirandello</option>
-          <option value="saab">Umberto Eco</option>
-          <option value="mercedes">Albert Camus</option>
-          <option value="audi">George Orwell</option>
-          <option value="saab">Emile Zola</option>
-          <option value="mercedes">Oscar Wild</option>
-          <option value="audi">Edgar Allan Poe</option>
-        </select>
-        <select id="ddlProducts" name="cars" id="cars">
-          <option value="volvo">Casa Editrice</option>
-          <option value="saab">Mondadori</option>
-          <option value="mercedes">Rizzoli</option>
-          <option value="audi">Feltrinelli</option>
-          <option value="volvo">Longanesi</option>
-          <option value="saab">Giunti</option>
-          <option value="mercedes">Einaudi </option>
-
-        </select>
-      </div>
-
-    </div>
-
-  </main>
-
-  <div class="re" id="root">
-    <div class="body1">
-      <div class="container"  v-for="book in books">
-          <ul class="align">
-            <li>
-              <figure class='book'>
-
-                <!-- Front -->
-                <ul class='hardcover_front'>
-                  <li :style="book.image">
-
-                    </li>
-                  <li></li>
-                </ul>
-
-                <!-- Pages -->
-                <ul class='page'>
-                  <li></li>
-                  <li>
-                    <div class="button">
-
-                        <button type="file" name="button"> <i class="fas fa-cart-arrow-down"> Buy it</i></button>
-                        <button type="file" name="button"> <i class="fas fa-download"> <a href="img/ho.webp" target="_blank" download>Dowload Demo</a></i></button>
-
-                    </div>
-
-
-                  </li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
-
-                <!-- Back -->
-                <ul class='hardcover_back'>
-                  <li></li>
-                  <li></li>
-                </ul>
-                <ul class='book_spine'>
-                  <li></li>
-                  <li></li>
-                </ul>
-
-              </figure>
-              <p>{{book.title}}</p>
-                <h4>{{book.like}}<i class="fas fa-heart"></i></h4>
-            </li>
-
-          </ul>
-
-      </div>
-
-
-    </div>
-
-  </div>
-  <footer>
-    <div class="container-book">
-        <div class="infinite"> </div>
-        <div class="box1">
-        <div class="square1">
-      <!-- <img src="img\gg.webp" alt="" height="100px"> -->
-        </div> </div>
-
-      </div>
-      <div class="info-footer">
-        <div class="f1">
-          <ul>
-            <li><h2>Blu4Blu</h2></li>
-            <li>Via XX Settembre 30,Legnano(MI) <br>P.IVA/C.F.:12345678 <br>REA MI-87654321  </li>
-            <li>Cookie</li>
-            <li>Privacy policy</li>
-          </ul>
-        </div>
-        <div class="f1">
-          <ul>
-            <li><h2>Blu4Blu</h2></li>
-            <li><h3>Contattaci</h3> </li>
-            <li>Tel.03324567565</li>
-            <li>Fax.5454545454</li>
-          </ul>
-        </div>
-        <div class="f1">
-          <ul>
-            <li><h2>Blu4Blu</h2></li>
-            <li><h3>Tags</h3> </li>
-
-            <li>I migliori Autori  </li>
-            <li>Scrivi in 40 giorni la tua autobiografia
-            <li>Come riciclare la carta </li>
-
-            <li>Voglio ordinare dei libri! come faccio? </li>
-
-
-          </ul>
-        </div>
-
-      </div>
-  </footer>
-   <!-- <div class="overlaywhite">
-    <div class="btn-overlay">
-      <div class="btn-f-o">
+        <div class="btn-f-o">
         <button type="button" name="button">Torna alla Homepage</button>
       </div>
       <div class="btn-f-o">
-       <button type="button" name="button">Sfoglia altri libri</button>
+      <button type="button" name="button">Sfoglia altri libri</button>
+    </div>
+  </div> -->
+</div>
+<div class="search">
+  <div class="icon"> <i class="fas fa-search"></i> </div>
+  <div class="input"> <input type="text" name="" value="" placeholder="Search" id="mysearch"> </div>
+  <span class="delete" onclick="document.getElementById('mysearch').value = ''"><i class="fas fa-times"></i></span>
+</div>
+
+<div class="custom-select">
+  <select id="ddlProducts" name="cars" id="cars">
+    <option value="volvo">Genere</option>
+    <option value="saab">Avventura</option>
+    <option value="mercedes">Letteratura</option>
+    <option value="audi">Arte</option>
+    <option value="saab">Informatica</option>
+    <option value="mercedes">Lingue Straniere</option>
+    <option value="audi">Psicologia</option>
+  </select>
+  <select id="ddlProducts" name="cars" id="cars">
+    <option value="volvo">Data di Pubblicazione</option>
+    <option value="saab">Novita'</option>
+    <option value="mercedes">Top Uscite 2021</option>
+    <option value="audi">Top Uscite 2020</option>
+    <option value="mercedes">Top Uscite 2019</option>
+    <option value="audi">Top Uscite 2018</option>
+    <option value="mercedes">Top Uscite 2000</option>
+    <option value="audi">Grandi Classici 1900</option>
+    <option value="mercedes">Saggi storici 400 a.c - 1850 d.c</option>
+
+  </select>
+  <select id="ddlProducts" name="cars" id="cars">
+    <option value="volvo">Autore</option>
+    <option value="saab">Antonio Manzoni</option>
+    <option value="mercedes">Ernest Hemingway</option>
+    <option value="audi">Luigi Pirandello</option>
+    <option value="saab">Umberto Eco</option>
+    <option value="mercedes">Albert Camus</option>
+    <option value="audi">George Orwell</option>
+    <option value="saab">Emile Zola</option>
+    <option value="mercedes">Oscar Wild</option>
+    <option value="audi">Edgar Allan Poe</option>
+  </select>
+  <select id="ddlProducts" name="cars" id="cars">
+    <option value="volvo">Casa Editrice</option>
+    <option value="saab">Mondadori</option>
+    <option value="mercedes">Rizzoli</option>
+    <option value="audi">Feltrinelli</option>
+    <option value="volvo">Longanesi</option>
+    <option value="saab">Giunti</option>
+    <option value="mercedes">Einaudi </option>
+
+  </select>
+</div>
+
+</div>
+
+</main>
+
+<div class="re" id="root">
+  <div class="body1">
+    <div class="container"  v-for="book in books">
+      <ul class="align">
+        <li>
+          <figure class='book'>
+
+            <!-- Front -->
+            <ul class='hardcover_front'>
+              <li :style="book.image">
+
+              </li>
+              <li></li>
+            </ul>
+
+            <!-- Pages -->
+            <ul class='page'>
+              <li></li>
+              <li>
+                <div class="button">
+
+                  <button type="file" name="button"> <i class="fas fa-cart-arrow-down"> Buy it</i></button>
+                  <button type="file" name="button"> <i class="fas fa-download"> <a href="img/ho.webp" target="_blank" download>Dowload Demo</a></i></button>
+
+                </div>
+
+
+              </li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+
+            <!-- Back -->
+            <ul class='hardcover_back'>
+              <li></li>
+              <li></li>
+            </ul>
+            <ul class='book_spine'>
+              <li></li>
+              <li></li>
+            </ul>
+
+          </figure>
+          <p>{{book.title}}</p>
+          <h4>{{book.like}}<i class="fas fa-heart"></i></h4>
+        </li>
+
+      </ul>
+
+    </div>
+
+
+  </div>
+
+</div>
+<footer>
+  <div class="container-book">
+    <div class="infinite"> </div>
+    <div class="box1">
+      <div class="square1">
+        <!-- <img src="img\gg.webp" alt="" height="100px"> -->
+      </div> </div>
+
+    </div>
+    <div class="info-footer">
+      <div class="f1">
+        <ul>
+          <li><h2>Blu4Book</h2></li>
+          <li>Via XX Settembre 30,Legnano(MI) <br>P.IVA/C.F.:12345678 <br>REA MI-87654321  </li>
+          <li>Cookie</li>
+          <li>Privacy policy</li>
+        </ul>
+      </div>
+      <div class="f1">
+        <ul>
+          <li><h2>Blu4Book</h2></li>
+          <li><h3>Contattaci</h3> </li>
+          <li>Tel.03324567565</li>
+          <li>Fax.5454545454</li>
+        </ul>
+      </div>
+      <div class="f1">
+        <ul>
+          <li><h2>Blu4Book</h2></li>
+          <li><h3>Tags</h3> </li>
+
+          <li>I migliori Autori  </li>
+
+          <li>Come riciclare la carta </li>
+
+          <li>Voglio ordinare dei libri! come faccio? </li>
+
+
+        </ul>
+      </div>
+
+      <div class="f2">
+
+        <h2>Blu4Book</h2>
+        <h3>Seguici anche su</h3>
+        <div class="f3">
+          <div><i class="fab fa-instagram"></i></div>
+
+          <div><i class="fab fa-facebook-square"></i> </div>
+
+          <div><i class="fab fa-facebook-square"></i> </div>
+          <div><i class="fab fa-twitter-square"></i> </div>
+          <div><i class="fab fa-linkedin-in"></i> </div>
+        </div>
+
+
+
       </div>
     </div>
-   </div> -->
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
-  <script src="js/main.js" charset="utf-8"></script>
-    <script src="js/scrollb.js" charset="utf-8"></script>
-  <script src="js/search.js" charset="utf-8"></script>
-    <script src="js/imagebook.js" charset="utf-8"></script>
+  </footer>
+  <!-- <div class="overlaywhite">
+  <div class="btn-overlay">
+  <div class="btn-f-o">
+  <button type="button" name="button">Torna alla Homepage</button>
+</div>
+<div class="btn-f-o">
+<button type="button" name="button">Sfoglia altri libri</button>
+</div>
+</div>
+</div> -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+<script src="js/main.js" charset="utf-8"></script>
+<script src="js/scrollb.js" charset="utf-8"></script>
+<script src="js/search.js" charset="utf-8"></script>
+<script src="js/imagebook.js" charset="utf-8"></script>
 </body>
 </html>
