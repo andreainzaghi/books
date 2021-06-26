@@ -791,7 +791,7 @@ height:40px;
   width:7px;
   height:100%;
   background:#007FFF;
-  animation:animate 5s linear infinite;
+
 }
 #progressHeight{
   position: fixed;
@@ -812,7 +812,7 @@ height:40px;
     filter:hue-rotate(360deg);
   }
 } */
-#progressbar:befour{
+#progressbar::befour{
 content:'';
 position:absolute;
 
@@ -822,4 +822,25 @@ position:absolute;
   height:100%;
   background: #007FFF;
 filter:blur(30px);
+}
+/* footer */
+footer{
+  background: radial-gradient(#007FFF,#007FFF);
+}
+.info-footer{
+  display: flex;
+  width:90%;
+  margin: auto;
+justify-content: space-between;
+ padding:18px;
+
+}
+.f1{
+  width:30%;
+  padding:15px;
+ text-align: center;
+}
+.f1:hover{
+border:1px solid #fff;
+color:#fff;
 }

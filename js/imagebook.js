@@ -1,9 +1,9 @@
-//
-// new Vue({
-//   el: '#root',
-//   data: {
 
-  let books:[ {
+new Vue({
+  el: '#root',
+  data: {
+
+    books:[ {
      image: { backgroundImage: "url(https://th.bing.com/th/id/R8f58158c67fd848b1f6c8a33b13f66a0?rik=JuAS9Ybj4es0Nw&pid=ImgRaw)" },
          title:'Le cronache di Narnia',
      like:'45'
@@ -140,18 +140,18 @@
         title:'Le cronache di Narnia',
 
       like:'12'
-    }];
+    }]
 
-console.log(books);
-  // },
-//
-//   computed: {
-//
-//   },
-//   methods:{
-//
-//
-//   }
-//
-//
-// });
+
+  },
+
+  computed: {
+
+  },
+  methods:{
+
+
+  }
+
+
+});
