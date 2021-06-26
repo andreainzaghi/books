@@ -8,7 +8,7 @@ window.onscroll = function(){
   // if (progressHeight < 95) {
   //    document.getElementById("btn-overlay").classList.toggle("overlaybutton");
   // }
-if (progressHeight<101) {
+if (progressHeight<=100) {
     document.getElementById('progressHeight').innerHTML = progressHeight.toFixed();
 }
 

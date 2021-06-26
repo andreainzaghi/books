@@ -802,6 +802,7 @@ figcaption p {
   height:24px;
   width:25px;
   z-index: 10000;
+  border-radius: 10px;
   border-left:1px solid lightgrey;
   border-bottom:1px solid lightgrey;
   padding: 0;
@@ -828,10 +829,11 @@ filter:hue-rotate(360deg);
 /* footer */
 footer{
   background: radial-gradient(#007FFF,#007FFF);
+
 }
 .info-footer{
   display: flex;
-  width:90%;
+  width:95%;
   margin: auto;
   justify-content: space-between;
   padding:27px;
@@ -847,6 +849,9 @@ footer{
 .f1:hover,
 .f2:hover{
   border:1px solid #fff;
+  transform: scale(1.1);
+  background-color: rgb(44, 156, 247);
+  border-radius: 7px;
   color:#fff;
 }
 .f1 li{
@@ -854,9 +859,20 @@ footer{
 }
 .f3 {
   display: flex;
-  font-size: 20px;
+  font-size: 25px;
 
 }
 .f3 div i{
   padding: 0 5px;
+}
+.f3 div i:hover{
+color:#fff;
+transform: scale(1.5);
+}
+.f2 h2
+{
+  font-size: 19px;
+}
+.f2 h3{
+    font-size: 15px;
 }
