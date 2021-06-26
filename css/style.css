@@ -210,7 +210,7 @@ color:#fff;
 
   background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
   box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.25),
-  -5px -5px 5px 0 rgba(255, 255, 255, 0.3);
+  5px 5px 5px 0 rgba(255, 255, 255, 0.3);
   background: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(255,255,255,0.15));
   height:45px;
   outline: none;
@@ -267,7 +267,7 @@ header ,main{
   line-height: 1;
   display: flex;
   justify-content: space-between;
-  margin:auto;
+  margin:-40px  auto;
   width:90%;
   flex-wrap: wrap;
 }
