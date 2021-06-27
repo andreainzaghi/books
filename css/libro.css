@@ -124,7 +124,7 @@ background: linear-gradient(rgba(0,0,0,0.25),transparent);
   width:40px;
   color:#fff;
   background-color: #2271b3;
- transition: 0.7s;
+ transition: 0.15s;
   z-index: 2222;
   border-top-right-radius: 14px;
   border-bottom-right-radius: 14px;
@@ -155,61 +155,122 @@ background: linear-gradient(rgba(0,0,0,0.25),transparent);
   position:fixed;
   top:370px;
   left:-400px;
-   transition: 0.6s;
+   transition:0.1s;
   width:330px;
    outline: none;
+   height:40px;
 }
 .inputmail1{
   position:fixed;
-  top:450px;
+  top:417px;
   left:-400px;
-   transition: 0.6s;
+   transition:0.1s;
    width:330px;
    outline: none;
    height:135px;
+
 }
 .textt1{
   color:#fff;
   position:fixed;
   top:373px;
-   transition: 0.6s;
+   transition:0.1s;
   left:10px;
+    animation: textn1 1s linear infinite;
 }
 .textt2{
   color:#fff;
   position:fixed;
   top:373px;
-  left: 10px;
-}
+  left: 15px;
+  animation: textn 1s linear infinite;
+
+
+  }
+  @keyframes textn1{
+    0%{
+      transform:scale(1.0);
+    }
+
+  40%{
+      transform:scale(1.7);
+        text-shadow: 1px 1px 3px #fff;
+        color:lightgreen;
+    }
+    100%{
+      transform:scale(1.0);
+    }
+  }
+  @keyframes textn{
+    0%{
+      transform:scale(1.0);
+    }
+
+    50%{
+      transform:scale(1.75);
+        text-shadow: 1px 1px 3px red;
+          color:red;
+    }
+    100%{
+      transform:scale(1.0);
+    }
+  }
 .inputmail2{
   position:fixed;
   top:370px;
-  border-radius: 6px;
+  border-radius: 20px;
   left:90px;
   width:330px;
   padding:10px;
   height:40px;
+  border: none;
+  background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+  box-shadow: 8px 8px -16px 0 rgba(0, 0, 0, 0.25),
+  -5px -5px -5px 0 rgba(255, 255, 255, 0.3);
+  background: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(255,255,255,0.15));
+  border:1px solid #fff;
+  color:#fff;
 }
+.inputmail2:hover{
+  box-shadow: -3px -3px 6px 0 rgba(0, 0, 0, 0.25),
+  3px 3px 5px 0 rgba(255, 255, 255, 0.3);
+
+}
+.inputmail2::-webkit-input-placeholder {  color: #fff;   }
 .butsend{
   position:fixed;
     padding:10px;
     border-radius: 6px;
   top:560px;
   left:-400px;
-   transition: 0.6s;
-  width:40px;
-  height:135px;
+   transition:0.1s;
+   width:330px;
+ height:40px;
 }
 .butsend1{
   position:fixed;
     padding:10px;
-    border-radius: 6px;
+    border-radius: 20px;
   top:560px;
   left:90px;
-
+    color:#fff;
     width:330px;
   height:40px;
   border: none;
+  background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+  box-shadow: 8px 8px -16px 0 rgba(0, 0, 0, 0.25),
+  -5px -5px -5px 0 rgba(255, 255, 255, 0.3);
+  background: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(255,255,255,0.15));
+  border:1px solid #fff;
+}
+.fa-share{
+  color:#fff;
+}
+.butsend1:hover{
+
+  box-shadow: -3px -3px 6px 0 rgba(0, 0, 0, 0.25),
+  3px 3px 5px 0 rgba(255, 255, 255, 0.3);
+
 }
 .inputmail3{
   position:fixed;
@@ -220,6 +281,17 @@ background: linear-gradient(rgba(0,0,0,0.25),transparent);
   left:90px;
   width:330px;
   height:135px;
+  background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+  box-shadow: 8px 8px -16px 0 rgba(0, 0, 0, 0.25),
+  -5px -5px -5px 0 rgba(255, 255, 255, 0.3);
+  background: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(255,255,255,0.15));
+  border:1px solid #fff;
+   color:#fff;
+}
+.inputmail3:hover{
+  box-shadow: -3px -3px 6px 0 rgba(0, 0, 0, 0.25),
+  3px 3px 5px 0 rgba(255, 255, 255, 0.3);
+
 }
 .genereb1 #genereb{
   position: fixed;
