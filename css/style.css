@@ -55,6 +55,7 @@ header {
   transition: 0.6s;
   padding: 70px;
   background-color:#2271b3;
+
 }
 .sticky {
   z-index: 224;
@@ -465,11 +466,11 @@ a {
 }
 
 .align>li {
-  width: 250px;
+  width:250px;
   min-height: 300px;
   display: inline-block;
   margin:;
-  padding: 0 0 0 50px;
+  padding: 0 50px;
   vertical-align: top;
 }
 
@@ -653,7 +654,9 @@ a {
 .hardcover_front li:first-child:after {
   transform: rotateY(90deg) translateZ(-2px) translateX(2px);
 }
-
+.container{
+  width:25%;
+}
 .hardcover_front li:first-child:before {
   transform: rotateY(90deg) translateZ(158px) translateX(2px);
 }
@@ -917,7 +920,7 @@ figcaption p {
   width:105px;
   padding:5px;
   font-size: 12px;
-  height:30px;
+  height:35px;
   color:grey;
   margin:10px 0;
   border-radius: 20px;
@@ -931,7 +934,8 @@ figcaption p {
 
   box-shadow: -3px -3px 6px 0 rgba(0, 0, 0, 0.25),
   3px 3px 5px 0 rgba(255, 255, 255, 0.3);
-  color:blue;
+  color:#2271B3;
+  border: 1px solid #2271B3;
 }
 #ddlProducts  option
 {
