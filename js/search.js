@@ -33,6 +33,7 @@ textt1.onclick = function(){
 }
 
 
+
 // window.onscroll = function(){
 //
 // inputmail.classList.add('inputmail2');

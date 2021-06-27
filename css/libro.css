@@ -399,17 +399,17 @@ background: linear-gradient(rgba(0,0,0,0.25),transparent);
   justify-content: center;
   align-items: center;
 }
-.meteo2 p{
+#emoticonetxt{
 
   animation:espressioni1 2s linear infinite;
   font-size: 17px;
   font-weight: bold;
   text-align: center;
   color:#2271b3;
-  padding:0px 1px;
+ padding:4px 8px;
   background-color: rgb(242, 242, 242);
   border-radius: 20px;
-  border: 1px solid #2271b3;
+  border:1px solid rgb(34, 113, 179);
 }
 .meteo1 img{
 
@@ -450,7 +450,7 @@ background: linear-gradient(rgba(0,0,0,0.25),transparent);
   transition: 0.6s;
   display:none;
 }
-.meteo4 p{
+.meteo4 {
   position:fixed;
   z-index: 1113;
   bottom:150px;
