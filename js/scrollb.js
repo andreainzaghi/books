@@ -10,11 +10,11 @@ window.onscroll = function(){
   }else if(progressHeight>12 & progressHeight<22) {
     document.getElementById('genereb').innerHTML = 'LETTERATURA';
   }else if(progressHeight>22 & progressHeight<40) {
-    document.getElementById('genereb').innerHTML = 'ARTE';
+    document.getElementById('genereb').innerHTML = 'ARTE-AMORE';
   }else if(progressHeight>40 & progressHeight<55) {
     document.getElementById('genereb').innerHTML = 'PSICOLOGIA';
   }else if(progressHeight>55 & progressHeight<67) {
-    document.getElementById('genereb').innerHTML = 'INFORMATICA';
+    document.getElementById('genereb').innerHTML = 'MATEMATICA';
   }else if(progressHeight>67 & progressHeight<84) {
     document.getElementById('genereb').innerHTML = 'UNIVERSITA';
   }else {

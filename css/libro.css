@@ -118,10 +118,32 @@ background: linear-gradient(rgba(0,0,0,0.25),transparent);
   background: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(255,255,255,0.15));
 
   position:fixed;
-  top:370px;
+  top:350px;
   left:0;
-  height:250px;
+  height:265px;
   width:40px;
+  color:#fff;
+  background-color: #2271b3;
+ transition: 0.7s;
+  z-index: 2222;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+.genereb2{
+  border-top:3px solid #2271b3;
+  border-right:3px solid #2271b3;
+  border-bottom:3px solid #2271b3;
+  background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+  box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.25),
+  -5px -5px 5px 0 rgba(255, 255, 255, 0.3);
+  background: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(255,255,255,0.15));
+
+  position:fixed;
+  top:350px;
+  left:0;
+  height:265px;
+  width:480px;
   color:#fff;
   background-color: #2271b3;
 
@@ -129,13 +151,86 @@ background: linear-gradient(rgba(0,0,0,0.25),transparent);
   border-top-right-radius: 14px;
   border-bottom-right-radius: 14px;
 }
+.inputmail{
+  position:fixed;
+  top:370px;
+  left:-400px;
+   transition: 0.6s;
+  width:330px;
+   outline: none;
+}
+.inputmail1{
+  position:fixed;
+  top:450px;
+  left:-400px;
+   transition: 0.6s;
+   width:330px;
+   outline: none;
+   height:135px;
+}
+.textt1{
+  color:#fff;
+  position:fixed;
+  top:373px;
+   transition: 0.6s;
+  left:10px;
+}
+.textt2{
+  color:#fff;
+  position:fixed;
+  top:373px;
+  left: 10px;
+}
+.inputmail2{
+  position:fixed;
+  top:370px;
+  border-radius: 6px;
+  left:90px;
+  width:330px;
+  padding:10px;
+  height:40px;
+}
+.butsend{
+  position:fixed;
+    padding:10px;
+    border-radius: 6px;
+  top:560px;
+  left:-400px;
+   transition: 0.6s;
+  width:40px;
+  height:135px;
+}
+.butsend1{
+  position:fixed;
+    padding:10px;
+    border-radius: 6px;
+  top:560px;
+  left:90px;
+
+    width:330px;
+  height:40px;
+  border: none;
+}
+.inputmail3{
+  position:fixed;
+    padding:10px;
+    border-radius: 6px;
+  top:417px;
+   outline: none;
+  left:90px;
+  width:330px;
+  height:135px;
+}
 .genereb1 #genereb{
-  margin-top:150px;
+  position: fixed;
+  left:-40px;
+    top:480px;
   transform: rotate(270deg);
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   color:#fff;
 }
+
 /* social */
 .title-logo{
   height:60px;
