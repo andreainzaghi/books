@@ -206,7 +206,7 @@ new Vue({
       },
       {
         image: { backgroundImage: "url(https://images.booklooker.de/x/00Surd/Hugo-Brodbeck-Aebi+Einf%C3%BChrung-in-die-praktische-Biochemie-F%C3%BCr-Studierende-der-Medizin.jpg)" },
-          title:'Peccato che non siamo assieme',
+          title:'Peccato che non siamo insieme',
 
           like:'453',
           stock:'stock : +1000',

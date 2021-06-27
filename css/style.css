@@ -50,7 +50,7 @@ header {
 
   transition: 0.6s;
   padding: 70px;
-  background-color:#007fff;
+  background-color:#2271b3;
 }
 .sticky {
   z-index: 224;
@@ -59,13 +59,13 @@ header {
   left:0;
   right:0;
   padding: 37px;
-  border-bottom:1px solid #007FFF;
+  border-bottom:1px solid#2271b3;
   background-color:#F2F2F2;
 }
 .sticky ul li,
 .sticky ul h1{
   z-index: 224;
-  color:#007FFF;
+  color:#2271b3;
   font-weight: bold;
   text-shadow: 1px 1px 1px #fff;
   cursor: pointer;
@@ -88,8 +88,8 @@ header ul li:hover{
 
 }
 .sticky ul li:hover{
-  border-bottom:2px solid #007FFF;
-  color:#007FFF;
+  border-bottom:2px solid#2271b3;
+  color:#2271b3;
   z-index: 224;
   font-weight: bold;
 
@@ -106,14 +106,14 @@ main .hero-img{
 
 
 
-  border-bottom:4px solid #007FFF;
+  border-bottom:4px solid#2271b3;
   background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
   box-shadow: 6px 6px 6px 0 rgba(0, 0, 0, 0.15),
   -5px -5px 5px 0 rgba(255, 255, 255, 0.3);
   background: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(255,255,255,0.15));
 
   border-radius: 20px;
-  background:#007FFF;
+  background:#2271b3;
 }
 /* overlay */
 .overlayblack{
@@ -133,10 +133,11 @@ main .hero-img{
   background-color: #F2F2F2;
 }
 .fas{
-  color:#007FFF;
+  color:#2271b3;
 }
 .fas:hover{
-  color:#fe5a1d;
+  /* color:#fe5a1d; */
+  transform: scale(1.1);
 }
 
 /* .bchartb {
@@ -162,7 +163,7 @@ color:#fff;
   background-color: #fff;
   border-radius: 60px;
   transition: 0.5s;
-  box-shadow: 0 0 0 3px #2372D9;
+  box-shadow: 0 0 0 3px #2271B3;
   overflow: hidden;
 }
 .active{
@@ -747,7 +748,7 @@ figcaption p {
   justify-content: center;
 }
 .button button:first-child a{
-  color:#007FFF;
+  color:#2271b3;
   font-weight: bold;
 }
 .button button:first-child a:hover{
@@ -789,7 +790,7 @@ figcaption p {
 }
 #ddlProducts  option
 {
-  background-color: #007fff;
+  background-color: #2271b3;
   height:40px;
 }
 /* scrollbar */
@@ -817,7 +818,7 @@ figcaption p {
   border-left:1px solid #fff;
 
   height:100%;
-  background:#007FFF;
+  background:#2271b3;
 
 }
 #progressHeight{
@@ -848,12 +849,12 @@ filter:hue-rotate(360deg);
   left:0;
   width:100%;
   height:100%;
-  background: #007FFF;
+  background:#2271b3;
   filter:blur(30px);
 }
 /* footer */
 footer{
-  background: radial-gradient(#007FFF,#007FFF);
+  background: radial-gradient(#2271b3,#2271b3);
 
 }
 .info-footer{
@@ -875,9 +876,14 @@ footer{
 .f2:hover{
   border:1px solid #fff;
   transform: scale(1.1);
-  background-color: rgb(44, 156, 247);
+  background-color: #2271B3;
   border-radius: 7px;
   color:#fff;
+  background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+  box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.25),
+  -5px -5px 5px 0 rgba(255, 255, 255, 0.3);
+  background: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(255,255,255,0.15));
+
 }
 .f1 li{
   font-size: 13px;

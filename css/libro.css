@@ -9,11 +9,11 @@
 .infinite{
   position:relative;
   width:100%;
-  height:120px;
-  background:#007FFF;
+  height:115px;
+  background:#2271b3;
   transform-origin:bottom;
   transform-style:preserve-3d;
-  transform:perspective(500px)rotateX(39deg);
+  transform:perspective(500px)rotateX(40deg);
 }
 .infinite::before{
   content:'';
@@ -25,7 +25,7 @@
   width:100%;
   height:15px;
   animation:animateRoad 10s linear infinite;
-  background: linear-gradient(90deg,#fff 0%,#fff 70%,#007FFF 70%,#007FFF 100%);
+  background: linear-gradient(90deg,#fff 0%,#fff 70%,#2271b3 70%,#2271b3 100%);
   background-size:120px;
 }
 .infinite::after{
@@ -35,7 +35,7 @@
 
   width:100%;
   height:30px;
-  background:#007FFF;
+  background:#2271b3;
 
   transform-origin: top;
   transform:perspective(500px)rotateX(0deg);
@@ -65,21 +65,24 @@ background: linear-gradient(rgba(0,0,0,0.25),transparent);
   display:flex;
   justify-content: center;
   align-items: center;
-  -webkit-box-reflect:below 1px linear-gradient(transparent,transparent,transparent,#0006);
-  animation:animateBox 10s linear infinite;
+  -webkit-box-reflect:below 10px linear-gradient(transparent,transparent,transparent,#0006);
+  animation:animateBox 1.5s linear infinite;
 }
 @keyframes animateBox{
   0%{
-    transform:translateX(0);
+  transform:translateY(0);
+  }
+  50%{
+      transform:translateY(60px);
   }
   100%{
-    transform:translateX(-1px);
+      transform:translateY(0px);
   }
 }
 .square1{
   width:160px;
   height:230px;
-  border-radius: 5px;
+  border-radius: 6px;
   background-image: url('https://th.bing.com/th/id/R78876e362c30a446983ff406ebf23b59?rik=9x5Q6bmJ2TUasQ&riu=http%3a%2f%2fprodimage.images-bn.com%2fpimages%2f9780470503607_p0_v1_s1200x630.jpg&ehk=VNHaFd6G3sCRLqEuqQKI8OeUhd02ehAU67Mkz1TTyVQ%3d&risl=&pid=ImgRaw');
   background-size: cover;
   position:relative;
@@ -91,18 +94,24 @@ background: linear-gradient(rgba(0,0,0,0.25),transparent);
 @keyframes animate{
   0%{
     transform:rotate(0deg);
+
+  }
+  50%{
+    transform:rotate(180deg);
+
   }
   100%{
     transform:rotate(360deg);
+
   }
 }
 
 /* generi */
 
 .genereb1{
-  border-top:3px solid #007FFF;
-  border-right:3px solid #007FFF;
-  border-bottom:3px solid #007FFF;
+  border-top:3px solid #2271b3;
+  border-right:3px solid #2271b3;
+  border-bottom:3px solid #2271b3;
   background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
   box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.25),
   -5px -5px 5px 0 rgba(255, 255, 255, 0.3);
@@ -114,7 +123,7 @@ background: linear-gradient(rgba(0,0,0,0.25),transparent);
   height:250px;
   width:40px;
   color:#fff;
-  background-color: #007FFF;
+  background-color: #2271b3;
 
   z-index: 2222;
   border-top-right-radius: 14px;
@@ -152,18 +161,19 @@ background: linear-gradient(rgba(0,0,0,0.25),transparent);
   background-image: url('../img/Background (41).png');
 }
 #social div i {
-  color:rgb(0, 127, 255);
+  color:#2271B3;
   font-size: 20px;
 }
 #social div i:hover{
   transform: scale(1.35);
+    box-shadow: 1px 1px 20px #fff;
 }
 #social{
   background-color: #F2F2F2;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border:2px solid rgb(34, 155, 285);
+  border:2px solid #2271B3;
   position:absolute;
   right:1px;
   top:98px;
@@ -175,7 +185,7 @@ background: linear-gradient(rgba(0,0,0,0.25),transparent);
   transition: 0.5s;
 }
 #social:hover{
-
+  box-shadow: 1px 1px 20px #fff;
 
   width:275px;
 
@@ -204,7 +214,7 @@ background: linear-gradient(rgba(0,0,0,0.25),transparent);
   position:fixed;
   z-index: 1111;
   bottom:50px;
-  right:172px;
+  right:190px;
   width:370px;
   height:100px;
   display: flex;
@@ -215,13 +225,14 @@ background: linear-gradient(rgba(0,0,0,0.25),transparent);
 .meteo2 p{
 
   animation:espressioni1 2s linear infinite;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
-  color:#007FFF;
-  padding:0px 3px;
+  text-align: center;
+  color:#2271b3;
+  padding:0px 1px;
   background-color: rgb(242, 242, 242);
   border-radius: 20px;
-  border: 1px solid #007FFF;
+  border: 1px solid #2271b3;
 }
 .meteo1 img{
 
@@ -271,7 +282,7 @@ background: linear-gradient(rgba(0,0,0,0.25),transparent);
   right:50px;
   width:20px;
   height:20px;
-  color:#007FFF;
+  color:#2271b3;
   border:none;
   background-color: transparent;
   border-radius: 20px;
