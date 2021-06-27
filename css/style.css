@@ -66,19 +66,40 @@ header {
 .sticky ul h1{
   z-index: 224;
   color:#2271b3;
+  transition: 0.55s;
   font-weight: bold;
   text-shadow: 1px 1px 1px #fff;
   cursor: pointer;
 }
 header ul h1{
   font-size: 35px;
+    transition: 0.55s;
   color:#fff;
   text-shadow: 2px 2px 2px black;
   z-index: 224;
   font-weight: bold;
 
 }
+header ul li{
+  animation:brillantini 2s linear infinite;
+  z-index: 224;
 
+  cursor: pointer;
+
+}
+@keyframes brillantini{
+  0%{
+    text-shadow: 0px 0px 8px  #fff;
+  }
+
+  50%{
+     text-shadow: 0px 0px 8px  rgb(34, 113, 179);
+  }
+
+  100%{
+    text-shadow: 0px 0px 8px  #fff;
+  }
+}
 header ul li:hover{
   font-weight: bold;
   z-index: 224;
@@ -103,17 +124,130 @@ main .hero-img{
   margin:auto;
   width:100%;
   z-index: 10;
+/*
+background-image: url('https://thumbs.dreamstime.com/b/libri-su-fondo-blu-39808386.jpg');
+background-size: cover; */
 
-
-
-  border-bottom:4px solid#2271b3;
-  background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+  background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(34, 113, 179,0.25));
   box-shadow: 6px 6px 6px 0 rgba(0, 0, 0, 0.15),
   -5px -5px 5px 0 rgba(255, 255, 255, 0.3);
-  background: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(255,255,255,0.15));
-
+  background: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(34, 113, 179,0.25));
+/* animation:backgroundchange 4s linear infinite; */
+  transition: 0.5s;
   border-radius: 20px;
   background:#2271b3;
+}
+
+
+@keyframes backgroundchange{
+0%{
+
+  background: rgb(34,113,179);
+  background: radial-gradient(circle, rgba(34,113,179,1) 5%, rgba(153,203,255,1) 100%);
+}
+5%{
+
+  background: rgb(34,113,179);
+  background: radial-gradient(circle, rgba(34,113,179,1) 10%, rgba(153,203,255,1) 100%);
+}
+10%{
+
+  background: rgb(34,113,179);
+  background: radial-gradient(circle, rgba(34,113,179,1) 20%, rgba(153,203,255,1) 100%);
+}
+15%{
+
+  background: rgb(34,113,179);
+  background: radial-gradient(circle, rgba(34,113,179,1) 30%, rgba(153,203,255,1) 100%);
+}
+20%{
+
+  background: rgb(34,113,179);
+  background: radial-gradient(circle, rgba(34,113,179,1) 40%, rgba(153,203,255,1) 100%);
+}
+25%{
+
+  background: rgb(34,113,179);
+  background: radial-gradient(circle, rgba(34,113,179,1) 50%, rgba(153,203,255,1) 100%);
+}
+/* back */
+30%{
+
+  background: rgb(34,113,179);
+  background: radial-gradient(circle, rgba(34,113,179,1) 60%, rgba(153,203,255,1) 100%);
+}
+35%{
+
+  background: rgb(34,113,179);
+  background: radial-gradient(circle, rgba(34,113,179,1) 70%, rgba(153,203,255,1) 100%);
+}
+40%{
+
+  background: rgb(34,113,179);
+  background: radial-gradient(circle, rgba(34,113,179,1) 80%, rgba(153,203,255,1) 100%);
+}
+45%{
+
+  background: rgb(34,113,179);
+background: linear-gradient(circle, rgba(34,113,179,1) 90%, rgba(153,203,255,1) 100%);
+}
+50%{
+
+  background: rgb(34,113,179);
+background: linear-gradient(circle, rgba(34,113,179,1) 100%, rgba(153,203,255,1) 100%);
+}
+
+55%{
+
+  background: rgb(34,113,179);
+  background: radial-gradient(circle, rgba(34,113,179,1) 90%, rgba(153,203,255,1) 100%);
+}
+60%{
+
+  background: rgb(34,113,179);
+  background: radial-gradient(circle, rgba(34,113,179,1) 80%, rgba(153,203,255,1) 100%);
+}
+65%{
+
+  background: rgb(34,113,179);
+  background: radial-gradient(circle, rgba(34,113,179,1) 70%, rgba(153,203,255,1) 100%);
+}
+70%{
+
+  background: rgb(34,113,179);
+  background: radial-gradient(circle, rgba(34,113,179,1) 60%, rgba(153,203,255,1) 100%);
+}
+75%{
+
+  background: rgb(34,113,179);
+  background: radial-gradient(circle, rgba(34,113,179,1) 50%, rgba(153,203,255,1) 100%);
+}
+/* back */
+80%{
+
+  background: rgb(34,113,179);
+  background: radial-gradient(circle, rgba(34,113,179,1) 40%, rgba(153,203,255,1) 100%);
+}
+85%{
+
+  background: rgb(34,113,179);
+  background: radial-gradient(circle, rgba(34,113,179,1) 30%, rgba(153,203,255,1) 100%);
+}
+90%{
+
+  background: rgb(34,113,179);
+  background: radial-gradient(circle, rgba(34,113,179,1) 20%, rgba(153,203,255,1) 100%);
+}
+95%{
+
+  background: rgb(34,113,179);
+background: linear-gradient(circle, rgba(34,113,179,1) 10%, rgba(153,203,255,1) 100%);
+}
+100%{
+
+  background: rgb(34,113,179);
+background: linear-gradient(circle, rgba(34,113,179,1) 5%, rgba(153,203,255,1) 100%);
+}
 }
 /* overlay */
 .overlayblack{
@@ -122,7 +256,7 @@ main .hero-img{
   left:0;
   right:0;
   transition: 0.8s;
-  bottom:-4px;
+  bottom:0px;
   background-color: #F2F2F2;
   opacity:0;
 
@@ -201,6 +335,10 @@ color:#fff;
   outline: none;
 
 }
+.search .input input::-webkit-input-placeholder {
+   color: #2271B3;
+   opacity: 0.8;
+  }
 .search .input input{
 
   position:absolute;
