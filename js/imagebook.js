@@ -2,22 +2,7 @@
 new Vue({
   el: '#root',
   data: {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    messagetextinput:'',
     books:[ {
       image: { backgroundImage: "url(https://th.bing.com/th/id/OIP.mGtfLytIUT-A5jMpXVzQfgAAAA?pid=ImgDet&rs=1)" },
         title:'La Lettera',
@@ -302,4 +287,5 @@ new Vue({
 
      }]
    },
+
 });

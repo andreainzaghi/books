@@ -22,8 +22,13 @@
   <div class="genereb1">
     <p id="genereb"></p>
     <i class="fas fa-envelope-open-text textt1 "></i>
-    <input type="text" name="" value="" class="inputmail" placeholder="Oggetto">
-   <textarea name="message"class="inputmail1"></textarea>
+    <input type="text" name="" value="" v-model="messagetextinput" class="inputmail" placeholder="Oggetto (Scrivici per qualsiasi dubbio) ">
+    <!-- <p  v-show ="messagetextinput.length > 1">
+     Bozza
+    </p> -->
+   <textarea name="message"class="inputmail1" v-model="messagetextinput">
+
+   </textarea>
     <button type="button" name="button" class="butsend">Invia <i class="fas fa-share"></i></button>
   </div>
   <div class="meteo">

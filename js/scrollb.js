@@ -3,6 +3,8 @@ let totalHeight = document.body.scrollHeight - window.innerHeight;
 window.onscroll = function(){
   var progressHeight = (window.pageYOffset/totalHeight)*100;
 
+
+
   progress.style.height = progressHeight + "%";
   // genere
   if (progressHeight>=0 & progressHeight<12) {
@@ -10,7 +12,7 @@ window.onscroll = function(){
   }else if(progressHeight>12 & progressHeight<22) {
     document.getElementById('genereb').innerHTML = 'LETTERATURA';
   }else if(progressHeight>22 & progressHeight<40) {
-    document.getElementById('genereb').innerHTML = 'ARTE-AMORE';
+    document.getElementById('genereb').innerHTML = 'ARTE AMORE';
   }else if(progressHeight>40 & progressHeight<55) {
     document.getElementById('genereb').innerHTML = 'PSICOLOGIA';
   }else if(progressHeight>55 & progressHeight<67) {
@@ -20,7 +22,17 @@ window.onscroll = function(){
   }else {
     document.getElementById('genereb').innerHTML = 'BESTSELLER';
   }
-  // smileemoticon
+  // hshshshshsh
+  // hshshshshshshssh
+  let genereb2 = document.querySelector('.genereb2');
+  let inputmail2 = document.querySelector('.inputmail2');
+  let inputmail3 = document.querySelector('.inputmail3');
+  let textt2 = document.querySelector('.textt2');
+  let butsend1 = document.querySelector('.butsend1');
+
+
+
+
 
   if (progressHeight>15 & progressHeight<29) {
     document.getElementById('emoticonesp').innerHTML = '<img src=\'img/Background (42).png\'  height="100px">';
@@ -44,9 +56,33 @@ window.onscroll = function(){
     document.getElementById('emoticonedel').innerHTML = '';
   }
 
-  // scroll
-  if (progressHeight<=100) {
-    document.getElementById('progressHeight').innerHTML = progressHeight.toFixed();
-  }
 
+
+  
+  genereb2.classList.remove('genereb2');
+  genereb2.classList.add('genereb1');
+
+  inputmail2.classList.remove('inputmail2');
+  inputmail2.classList.add('inputmail');
+
+  inputmail3.classList.remove('inputmail3');
+  inputmail3.classList.add('inputmail1');
+
+  textt2.classList.remove('textt2');
+  textt2.classList.add('textt');
+
+  butsend1.classList.remove('butsend1');
+  butsend1.classList.add('butsend');
+
+    // hdhdhdhdhdhdhdhdhdhddhhd
+  // smileemoticon
+
+
+
+    //
+    //
+    // // scroll
+    // if (progressHeight<=100) {
+    //   document.getElementById('progressHeight').innerHTML = progressHeight.toFixed();
+    // }
 }

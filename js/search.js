@@ -17,15 +17,26 @@ icondelete.onclick = function(){
 
 // gmail
 
-const genereb1 = document.querySelector('.genereb1');
-const inputmail = document.querySelector('.inputmail');
-const inputmail1 = document.querySelector('.inputmail1');
-const textt1 = document.querySelector('.textt1');
-const butsend = document.querySelector('.butsend');
+var genereb1 = document.querySelector('.genereb1');
+var inputmail = document.querySelector('.inputmail');
+var inputmail1 = document.querySelector('.inputmail1');
+var textt1 = document.querySelector('.textt1');
+var butsend = document.querySelector('.butsend');
+
+
 textt1.onclick = function(){
   genereb1.classList.toggle('genereb2');
   inputmail.classList.toggle('inputmail2');
   inputmail1.classList.toggle('inputmail3');
   textt1.classList.toggle('textt2');
-    butsend.classList.toggle('butsend1');
+  butsend.classList.toggle('butsend1');
 }
+
+
+// window.onscroll = function(){
+//
+// inputmail.classList.add('inputmail2');
+// inputmail1.classList.add('inputmail3');
+// textt1.classList.add('textt2');
+// butsend.classList.add('butsend1');
+// }
