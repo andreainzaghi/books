@@ -512,11 +512,11 @@ color:transparent;
   color:blue;
     top:0px;
   }
-  51%{
+  50%{
     color:blue;
       top:0px;
     }
-51.1%{
+50.1%{
   color:transparent;
   top:20px;
 
@@ -536,22 +536,22 @@ color:transparent;
 }
 .descrizione-libri:hover{
 transform: scale(1.2);
-transition: 0.5s;
+transition: 1s;
   animation:backvawe 6s linear infinite;
 }
 @keyframes backvawe{
   0%{
   max-height: 105px;
   }
-  25%{
+33%{
     max-height: 129px;
   }
 
-  50%{
+  49%{
     max-height: 105px;
   }
 
-  75%{
+  83%{
   max-height: 129px;
   }
 
