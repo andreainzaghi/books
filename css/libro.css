@@ -512,7 +512,7 @@ color:transparent;
   51%{
     color:blue;
     }
-52%{
+51.1%{
   color:transparent;
     opacity: 1;
   }
@@ -539,7 +539,7 @@ transform: scale(1.2);
   max-height: 105px;
   }
   25%{
-    max-height: 130px;
+    max-height: 129px;
   }
 
   50%{
@@ -547,7 +547,7 @@ transform: scale(1.2);
   }
 
   75%{
-  max-height: 130px;
+  max-height: 129px;
   }
 
   100%{
@@ -560,11 +560,11 @@ transform: scale(1.2);
   color:transparent;
     opacity: 1;
   }
-  50%{
+  51%{
     color:transparent;
       opacity: 1;
     }
-51%{
+51.1%{
   color:blue;
   }
 
