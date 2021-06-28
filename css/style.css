@@ -27,6 +27,11 @@ header ul{
 }
 .align li p{
   color:#fff;
+  background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+  box-shadow: 8px 8px -16px 0 rgba(0, 0, 0, 0.25),
+  -5px -5px -5px 0 rgba(255, 255, 255, 0.3);
+  background: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(255,255,255,0.15));
+
   background-color: rgb(34, 113, 179);
   width:260px;
   text-align: left;
