@@ -480,7 +480,7 @@ background: linear-gradient(rgba(0,0,0,0.25),transparent);
   /* background-image: url('../img/o.webp');
   background-size: cover; */
 max-height: 105px;
-  transition: 0.5s;
+  transition: 0.1s;
   margin-top:40px;
   margin-left:-20px;
   background-color: #F2F2F2;
@@ -491,7 +491,7 @@ max-height: 105px;
 position:absolute;
 }
 /* .descrizione-libri h3:first-child{
-color:blue;
+color:#2271B3;
 
 }
 .descrizione-libri h3:last-child{
@@ -502,80 +502,73 @@ color:transparent;
 } */
 .descrizione-libri h3{
   position:relative;
-
+left:-200px;
   top:0;
   animation:backvawec22 6s linear infinite;
 }
 
 @keyframes backvawec22{
   0%{
-  color:blue;
-    top:0px;
+  color:#D4AF37 ;
+
+    transition: 0.5s;
   }
   50%{
-    color:blue;
-      top:0px;
+    color:#D4AF37 ;
+
+      transition: 0.5s;
     }
 50.1%{
   color:transparent;
-  top:20px;
+  transform:translateX(400px);
+  transition: 0.5s;
 
   }
 
-  100%{
+  99%{
     color:transparent;
-  top:20px;
+    transition: 0.5s;
+  ;
   }
 }
 .descrizione-libri h3:last-child{
   position:relative;
-
+right:-200px;
   top:-18px;
 
     animation:backvawec1 6s linear infinite;
 }
 .descrizione-libri:hover{
 transform: scale(1.2);
-transition: 1s;
-  animation:backvawe 6s linear infinite;
+transition: 0.5s;
+max-height: 129px;
+
 }
-@keyframes backvawe{
-  0%{
-  max-height: 105px;
-  }
-33%{
-    max-height: 129px;
-  }
 
-  49%{
-    max-height: 105px;
-  }
-
-  83%{
-  max-height: 129px;
-  }
-
-  100%{
-    max-height: 105px;
-  }
-}
 
 @keyframes backvawec1{
   0%{
+
+
   color:transparent;
-  top:2px;
+  transition: 0.5s;
+
   }
   51%{
     color:transparent;
-  top:2px;
+    transition: 0.5s;
+
     }
 51.1%{
-  color:blue;
-    top:-18px;
+    transform:translateX(400px);
+  color:#D4AF37 ;
+  transition: 0.5s;
+
   }
 
   100%{
-    color:blue;
-      top:-18px;
+    color:#D4AF37 ;
+    transition: 0.5s;
+
   }
 }
