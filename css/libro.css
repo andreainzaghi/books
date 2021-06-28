@@ -501,25 +501,30 @@ color:transparent;
 
 } */
 .descrizione-libri h3{
+  position:relative;
 
+  top:0;
   animation:backvawec22 6s linear infinite;
 }
 
 @keyframes backvawec22{
   0%{
   color:blue;
+    top:0px;
   }
   51%{
     color:blue;
+      top:0px;
     }
 51.1%{
   color:transparent;
-    opacity: 1;
+  top:20px;
+
   }
 
   100%{
     color:transparent;
-      opacity: 1;
+  top:20px;
   }
 }
 .descrizione-libri h3:last-child{
@@ -531,7 +536,7 @@ color:transparent;
 }
 .descrizione-libri:hover{
 transform: scale(1.2);
-
+transition: 0.5s;
   animation:backvawe 6s linear infinite;
 }
 @keyframes backvawe{
@@ -558,17 +563,19 @@ transform: scale(1.2);
 @keyframes backvawec1{
   0%{
   color:transparent;
-    opacity: 1;
+  top:2px;
   }
   51%{
     color:transparent;
-      opacity: 1;
+  top:2px;
     }
 51.1%{
   color:blue;
+    top:-18px;
   }
 
   100%{
     color:blue;
+      top:-18px;
   }
 }
