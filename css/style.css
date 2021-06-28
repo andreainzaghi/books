@@ -33,7 +33,10 @@ header ul{
   background: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(255,255,255,0.15));
 
   background-color: rgb(34, 113, 179);
-  width:100%;
+  width:98%;
+
+  margin: 1% auto 0;
+  border-radius: 5px;
   text-align: left;
   font-size: 17px;
   font-weight: bold;
