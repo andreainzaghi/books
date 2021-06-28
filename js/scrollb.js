@@ -39,33 +39,33 @@ window.onscroll = function(){
     document.getElementById('emoticonesp').innerHTML = '<img src=\'img/Background (42).png\'  height="100px">';
     document.getElementById('emoticonetxt').innerHTML = 'Ei Simone!Aspetta un secondo!';
     document.getElementById('emoticonedel').innerHTML = '<i class="fas fa-times">';
-       document.getElementById("emoticonetxt").style.border = "1px solid rgb(34, 113, 179)";
-         document.getElementById("emoticonetxt").style.padding = "4px 8px";
+    document.getElementById("emoticonetxt").style.border = "1px solid rgb(34, 113, 179)";
+    document.getElementById("emoticonetxt").style.padding = "4px 8px";
   }else if(progressHeight>29 & progressHeight<44) {
     document.getElementById('emoticonesp').innerHTML = '<img src=\'img/Background (43).png\'  height="100px">';
     document.getElementById('emoticonetxt').innerHTML = 'Volevo dirti una cosa velocissima ';
     document.getElementById('emoticonedel').innerHTML = '<i class="fas fa-times">';
-       document.getElementById("emoticonetxt").style.border = "1px solid rgb(34, 113, 179)";
-         document.getElementById("emoticonetxt").style.padding = "4px 8px";
+    document.getElementById("emoticonetxt").style.border = "1px solid rgb(34, 113, 179)";
+    document.getElementById("emoticonetxt").style.padding = "4px 8px";
   }else if(progressHeight>44 & progressHeight<61) {
     document.getElementById('emoticonesp').innerHTML = '<img src=\'img/Background (44).png\'  height="100px">';
     document.getElementById('emoticonetxt').innerHTML = 'Voglio essere sicuro che dai un occhiata hai nostri Bestsellers';
     document.getElementById('emoticonedel').innerHTML = '<i class="fas fa-times">';
-       document.getElementById("emoticonetxt").style.border = "1px solid rgb(34, 113, 179)";
-         document.getElementById("emoticonetxt").style.padding = "4px 8px";
+    document.getElementById("emoticonetxt").style.border = "1px solid rgb(34, 113, 179)";
+    document.getElementById("emoticonetxt").style.padding = "4px 8px";
   }else if(progressHeight>61& progressHeight<75) {
     document.getElementById('emoticonesp').innerHTML ='<img src=\'img/Background (45).png\'  height="100px">';
     document.getElementById('emoticonetxt').innerHTML = 'OTTIMO!' + '<br>' + 'Piccola info,oggi il tempo sara\' soleggiato con 26°C' ;
     document.getElementById('emoticonedel').innerHTML = '<i class="fas fa-times">';
-       document.getElementById("emoticonetxt").style.border = "1px solid rgb(34, 113, 179)";
-         document.getElementById("emoticonetxt").style.padding = "4px 8px";
+    document.getElementById("emoticonetxt").style.border = "1px solid rgb(34, 113, 179)";
+    document.getElementById("emoticonetxt").style.padding = "4px 8px";
 
   }else {
     document.getElementById('emoticonesp').innerHTML = '';
     document.getElementById('emoticonetxt').innerHTML = '';
     document.getElementById('emoticonedel').innerHTML = '';
-     document.getElementById("emoticonetxt").style.border = "1px solid transparent";
-        document.getElementById("emoticonetxt").style.padding = "0px";
+    document.getElementById("emoticonetxt").style.border = "1px solid transparent";
+    document.getElementById("emoticonetxt").style.padding = "0px";
   }
 
 
@@ -84,7 +84,7 @@ window.onscroll = function(){
   butsend1.classList.remove('butsend1');
   butsend1.classList.add('butsend');
 
-    // hdhdhdhdhdhdhdhdhdhddhhd
+  // hdhdhdhdhdhdhdhdhdhddhhd
   // smileemoticon
   // var active = document.querySelector('.active');
   // active.classList.remove('active');
@@ -92,10 +92,10 @@ window.onscroll = function(){
 
 
 
-    //
-    //
-    // // scroll
-    // if (progressHeight<=100) {
-    //   document.getElementById('progressHeight').innerHTML = progressHeight.toFixed();
-    // }
+  //
+  //
+  // // scroll
+  // if (progressHeight<=100) {
+  //   document.getElementById('progressHeight').innerHTML = progressHeight.toFixed();
+  // }
 }
