@@ -1,0 +1,10 @@
+@media screen and (max-width: 790px) {
+  .align>li {
+    width:100px;
+    min-height: 150px;
+    display: inline-block;
+    margin:;
+    padding: 0 70px;
+    vertical-align: top;
+  }
+         }
