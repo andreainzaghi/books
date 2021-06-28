@@ -479,7 +479,7 @@ background: linear-gradient(rgba(0,0,0,0.25),transparent);
 .descrizione-libri{
   /* background-image: url('../img/o.webp');
   background-size: cover; */
-
+max-height: 105px;
   transition: 0.5s;
   margin-top:40px;
   margin-left:-20px;
@@ -488,9 +488,87 @@ background: linear-gradient(rgba(0,0,0,0.25),transparent);
   width:230px;
   overflow: hidden;
   border: 1px solid rgb(34, 113, 179);
+position:absolute;
+}
+/* .descrizione-libri h3:first-child{
+color:blue;
 
+}
+.descrizione-libri h3:last-child{
+  position:relative;
+  top:-18px;
+color:transparent;
+
+} */
+.descrizione-libri h3{
+
+  animation:backvawec22 6s linear infinite;
+}
+
+@keyframes backvawec22{
+  0%{
+  color:blue;
+  }
+  51%{
+    color:blue;
+    }
+52%{
+  color:transparent;
+    opacity: 1;
+  }
+
+  100%{
+    color:transparent;
+      opacity: 1;
+  }
+}
+.descrizione-libri h3:last-child{
+  position:relative;
+
+  top:-18px;
+
+    animation:backvawec1 6s linear infinite;
 }
 .descrizione-libri:hover{
 transform: scale(1.2);
 
+  animation:backvawe 6s linear infinite;
+}
+@keyframes backvawe{
+  0%{
+  max-height: 105px;
+  }
+  25%{
+    max-height: 130px;
+  }
+
+  50%{
+    max-height: 105px;
+  }
+
+  75%{
+  max-height: 130px;
+  }
+
+  100%{
+    max-height: 105px;
+  }
+}
+
+@keyframes backvawec1{
+  0%{
+  color:transparent;
+    opacity: 1;
+  }
+  50%{
+    color:transparent;
+      opacity: 1;
+    }
+51%{
+  color:blue;
+  }
+
+  100%{
+    color:blue;
+  }
 }

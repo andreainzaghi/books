@@ -663,6 +663,7 @@ a {
 .container{
   width:25%;
 }
+
 .hardcover_front li:first-child:before {
   transform: rotateY(90deg) translateZ(158px) translateX(2px);
 }
